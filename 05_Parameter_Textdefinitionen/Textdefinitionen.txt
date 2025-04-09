@@ -1,0 +1,20 @@
+FN_Anlagen
+{"de":" 1 Anlagen","en":"Attachments"}
+
+FN_MerkmalEins
+{"de":"Anzahl der erfassten Maßnahmen","en":"Characteristic 1"}
+
+FN_MerkmalZwei
+{"de":"noch verfügbare Landesmittel","en":"Characteristic 2"}
+
+FN_MerkmalDrei
+{"de":"noch verfügbare Landesmittel","en":"Characteristic 2"}
+
+FN_MerkmalVier
+{"de":"Sachstand","en":"Characteristic 4"}
+
+FN_Art
+{"de":"Anwendung","en":"Type"}
+
+MSG_VorschlaegeHinweis
+{"de":"Bitte geben sie mindestens %s Zeichen ein, um Vorschläge zu Ihrer Eingabe zu erhalten. Wenn Ihr Projetträger nicht enthalten ist, geben Sie bitte \"Projektträger manuell erfassen\" ein.","en":"Please enter at least %s character(s) to get suggestions for your input."}

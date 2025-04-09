@@ -1,0 +1,95 @@
+.sjf-public-oenavitem .sjf-public-oenavitem-button.btn {
+    display: none;
+}
+
+.civ-berechtigung-beteiligten.card{
+    display: none;
+}
+
+.civ-akte-beteiligte-header.row{
+    display: none;
+}
+
+.civ-akte-beteiligte-filter.sjf-dropdown-field.outlined.input-field{
+    display: none;
+}
+/* 
+.s12.m12.l12.civ-dokumente-container.col > div.civ-ausklappbar.active:first-of-type {
+    display: none;
+} */
+
+.s12.m12.l6.col > h2:first-of-type {
+    display: none;
+}
+
+.sjf-AppSecurityEditorRow .col:first-child > button {
+    background-color: #ffffff;
+    color: #14133b;
+    border: 2px solid #14133b;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sjf-AppSecurityEditorRow .col:first-child > button:hover {
+    background-color: #4e4d6c;
+    border: 2px solid #4e4d6c;
+    color: #ffffff;
+}
+
+.sjf-AppSecurityEditorRow .col:first-child > button:focus {
+    outline: 3px #007bab solid;
+    outline-offset: 2px;
+}
+
+.sjf-AppSecurityEditorRow.row {
+    flex-direction: row-reverse;
+}
+
+/* CSS aims to mock "standard" civento buttons */
+a.btn-civento {
+    /* float:left; */
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+    font-family: sans-serif;
+    border-radius: 10px !important;
+    background-color: #14133b;
+    transition: all .3s ease-in-out;
+    margin: 5px 5px;
+    padding: 10px 42px;
+    width: 100%;
+    justify-content: center;
+}
+
+a.btn-civento:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    background-color: #4e4d6c;
+    color: white !important;
+}
+
+a.btn-civento:focus {
+    outline: 0;
+    background-color: #14133b;
+    box-shadow: 0 0 0 4px #007dbe !important;
+}
+
+.container.flex {
+    display: flex;
+}
+
+a.btn-civento.flex {
+    width: fit-content;
+}
+
+a.btn-civento.flex-right {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.material-labelAQB {
+    display: block;
+    user-select: text;
+  }

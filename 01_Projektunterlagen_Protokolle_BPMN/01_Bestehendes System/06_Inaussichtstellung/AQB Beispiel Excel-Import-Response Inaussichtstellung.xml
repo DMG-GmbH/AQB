@@ -1,0 +1,45 @@
+
+<root>
+    <object> <!-- Zeile 1 -->
+        <element>
+            <key>Landkreis /kreisfreie Stadt</key>
+            <value>Bergstraße, Landkreis</value>
+        </element>
+        <element>
+            <key>AQB Ansatz 2024</key>
+            <value>106100</value>
+        </element>
+        <!-- <element>
+            <key>Spaltenbezeichnung</key>
+            <value>Zellenwert</value>
+        </element> -->
+        <!-- <element>
+            <key>Spaltenbezeichnung</key>
+            <value>Zellenwert</value>
+        </element> -->
+        <!-- ... -->
+    </object>
+    <object> <!-- Zeile 2 -->
+        <element>
+            <key>Landkreis /kreisfreie Stadt</key>
+            <value>Darmstadt, Stadt</value>
+        </element>
+        <element>
+            <key>Landkreis /kreisfreie Stadt</key>
+            <value>Darmstadt, Stadt</value>
+        </element>
+        <!-- <element>
+            <key>Spaltenbezeichnung</key>
+            <value>Zellenwert</value>
+        </element> -->
+        <!-- <element>
+            <key>Spaltenbezeichnung</key>
+            <value>Zellenwert</value>
+        </element> -->
+        <!-- ... -->
+    </object>
+    <!-- Zeile 3 -->
+    <!-- Zeile 4 -->
+    <!-- Zeile 5 -->
+    <!-- ... -->
+</root>
