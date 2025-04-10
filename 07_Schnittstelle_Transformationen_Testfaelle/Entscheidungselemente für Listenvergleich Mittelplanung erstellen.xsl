@@ -6,22 +6,20 @@
 
     <xsl:variable name="ID" as="xs:integer">715003302631000</xsl:variable>
     <xsl:template match="/">
-    <xsl:variable name="DMName" select="/Metadatendefinition/Objekt/@Name" />
-    <xsl:variable name="Liste" select="/Metadatendefinition/Objekt/Metadatenliste[@Name = 'Massnahme']/@Name" />
+    <xsl:variable name="Liste" select="/DokumentAnzeigen/DynamischesFormular/DokumentelementGruppe/DokumentelementListe/Liste/Id" />
     
     <SequenzielleListe Id="150003302631000">
     <Comment>Maßnahmen Vergleiche</Comment>
     <Active>true</Active>
-        <xsl:for-each select="//Metadatenfeld">
+        <xsl:for-each select="/DokumentAnzeigen/DynamischesFormular/DokumentelementGruppe/DokumentelementListe/DokumentelementObjekt/DokumentelementEingabefeld">
         <xsl:variable name="pos" select="position()"/>
-        <xsl:variable name="Verweis" select="." />
-        <xsl:variable name="IDinner" as="xs:integer">150013302631000</xsl:variable>
-        <xsl:variable name="IDSeq" as="xs:integer">1500003302631000</xsl:variable>
-        <xsl:variable name="IDSeqVar" as="xs:integer">1500013302631000</xsl:variable>
-        <xsl:variable name="IDSeqWF" as="xs:integer">1500203302631000</xsl:variable>
-        <xsl:variable name="IDinnerWF" as="xs:integer">15023302631000</xsl:variable>
-        <xsl:variable name="IDinnerBefehl" as="xs:integer">15033302631000</xsl:variable>
-        <xsl:variable name="Name" select="@Name" />
+        <xsl:variable name="Verweis" select="Datenverweis" />
+        <xsl:variable name="IDinner" as="xs:integer">656013302631000</xsl:variable>
+        <xsl:variable name="IDSeq" as="xs:integer">6560003302631000</xsl:variable>
+        <xsl:variable name="IDSeqVar" as="xs:integer">6560013302631000</xsl:variable>
+        <xsl:variable name="IDSeqWF" as="xs:integer">6560203302631000</xsl:variable>
+        <xsl:variable name="IDinnerWF" as="xs:integer">65623302631000</xsl:variable>
+        <xsl:variable name="IDinnerBefehl" as="xs:integer">65633302631000</xsl:variable>
         <xsl:variable name="Titel" select="*/Titel/@Standard" />
 
         <xsl:if test="@Datentyp != 'ANLAGEN'">
@@ -34,10 +32,10 @@
                     <xsl:attribute name="Id">
                         <xsl:value-of select="$IDinner + $pos" />
                     </xsl:attribute>
-                    <Comment><xsl:value-of select="$Name"/>"</Comment>
+                    <Comment><xsl:value-of select="$Verweis"/></Comment>
                     <Active>true</Active>
                     <Ausdruck>
-                        <Ausdruck>Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>Alt, k, "<xsl:value-of select="$Name"/>") != Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Name"/>")</Ausdruck>
+                        <Ausdruck>Listenelement(<xsl:value-of select="$Liste"/>Alt, k, "<xsl:value-of select="$Verweis"/>") != Listenelement(<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Verweis"/>")</Ausdruck>
                     </Ausdruck>
                     <WorkflowvariableSetzen>
                     <xsl:attribute name="Id">
@@ -61,7 +59,7 @@
                                     </xsl:attribute>
                                     <Active>true</Active>
                                     <Ausdruck>
-                                        <Ausdruck>Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>, i, "Projekttraeger")</Ausdruck>
+                                        <Ausdruck>Listenelement(<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Verweis"/>")</Ausdruck>
                                     </Ausdruck>
                                     <Datenverweis>V.Z.Hilfsvariablen.TMPPerson</Datenverweis>
                                 </DatenvariableSetzen>
@@ -70,9 +68,17 @@
                                         <xsl:value-of select="$IDSeqWF + $pos + 100" />
                                     </xsl:attribute>
                                     <Active>true</Active>
-                                    <Wert>castToString(V.Z.Hilfsvariablen.TMPPerson.Name) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Postleitzahl) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Ort) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Strasse) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummer) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummernzusatz)</Wert>
+                                    <Wert>V.Z.Hilfsvariablen.TMPPerson</Wert>
                                     <Workflowvariable Datentyp="STRING" Variablenname="PersonNeuWerte"/>
                                 </WorkflowvariableSetzen>
+                                <!-- <WorkflowvariableSetzen>
+                                    <xsl:attribute name="Id">
+                                        <xsl:value-of select="$IDSeqWF + $pos + 100" />
+                                    </xsl:attribute>
+                                    <Active>true</Active>
+                                    <Wert>castToString(V.Z.Hilfsvariablen.TMPPerson.Name) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Postleitzahl) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Ort) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Strasse) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummer) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummernzusatz)</Wert>
+                                    <Workflowvariable Datentyp="STRING" Variablenname="PersonNeuWerte"/>
+                                </WorkflowvariableSetzen> -->
                                   <WorkflowvariableSetzen>
                                     <xsl:attribute name="Id">
                                         <xsl:value-of select="$IDSeqWF + $pos + 200" />
@@ -87,7 +93,7 @@
                                     </xsl:attribute>
                                     <Active>true</Active>
                                     <Ausdruck>
-                                        <Ausdruck>Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>Alt, k, "Projekttraeger")</Ausdruck>
+                                        <Ausdruck>Listenelement(<xsl:value-of select="$Liste"/>Alt, k, "<xsl:value-of select="$Verweis"/>")</Ausdruck>
                                     </Ausdruck>
                                     <Datenverweis>V.Z.Hilfsvariablen.TMPPerson</Datenverweis>
                                 </DatenvariableSetzen>
@@ -96,9 +102,17 @@
                                         <xsl:value-of select="$IDSeqWF + $pos + 300" />
                                     </xsl:attribute>
                                     <Active>true</Active>
-                                    <Wert>castToString(V.Z.Hilfsvariablen.TMPPerson.Name) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Postleitzahl) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Ort) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Strasse) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummer) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummernzusatz)</Wert>
+                                    <Wert>V.Z.Hilfsvariablen.TMPPerson</Wert>
                                     <Workflowvariable Datentyp="STRING" Variablenname="PersonAltWerte"/>
                                 </WorkflowvariableSetzen>
+                                <!-- <WorkflowvariableSetzen>
+                                    <xsl:attribute name="Id">
+                                        <xsl:value-of select="$IDSeqWF + $pos + 300" />
+                                    </xsl:attribute>
+                                    <Active>true</Active>
+                                    <Wert>castToString(V.Z.Hilfsvariablen.TMPPerson.Name) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Postleitzahl) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Ort) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Strasse) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummer) + " " + castToString(V.Z.Hilfsvariablen.TMPPerson.Hausnummernzusatz)</Wert>
+                                    <Workflowvariable Datentyp="STRING" Variablenname="PersonAltWerte"/>
+                                </WorkflowvariableSetzen> -->
                                 <WorkflowvariableSetzen>
                                     <xsl:attribute name="Id">
                                         <xsl:value-of select="$IDSeqWF + $pos + 400" />
@@ -109,6 +123,16 @@
                                 </WorkflowvariableSetzen>
                                 <Expanded>true</Expanded>
                             </SequenzielleListe>
+                            <BefehlAusfuehren>
+                                <xsl:attribute name="Id">
+                                    <xsl:value-of select="$IDinnerBefehl + $pos + 200" />
+                                </xsl:attribute>
+                                <Comment>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "Massnahme", Listenelement(<xsl:value-of select="$Liste"/>, i, "Aktenzeichen"), ZaehlerLogbuch)</Comment>
+                                <Active>true</Active>
+                                <Befehl>
+                                    <Ausdruck>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "Massnahme", Listenelement(<xsl:value-of select="$Liste"/>, i, "Aktenzeichen"), ZaehlerLogbuch)</Ausdruck>
+                                </Befehl>
+                            </BefehlAusfuehren>
                             <BefehlAusfuehren>
                                 <xsl:attribute name="Id">
                                     <xsl:value-of select="$IDinnerBefehl + $pos + 400" />
@@ -131,30 +155,40 @@
                             </BefehlAusfuehren>
                         </xsl:when>
                         <xsl:otherwise>
-                    <BefehlAusfuehren>
-                        <xsl:attribute name="Id">
-                            <xsl:value-of select="$IDinnerBefehl + $pos + 400" />
-                        </xsl:attribute>
-                        <Comment>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertAlt", castToString(Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>Alt, k, "<xsl:value-of select="$Name"/>")), ZaehlerLogbuch)</Comment>
-                        <Active>true</Active>
-                        <Befehl>
-                            <Ausdruck>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertAlt", castToString(Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>Alt, k, "<xsl:value-of select="$Name"/>")), ZaehlerLogbuch)</Ausdruck>
-                        </Befehl>
-                    </BefehlAusfuehren>
-                    <BefehlAusfuehren>
-                        <xsl:attribute name="Id">
-                            <xsl:value-of select="$IDinnerBefehl + $pos + 500" />
-                        </xsl:attribute>
-                        <Comment>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertNeu", castToString(Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Name"/>")), ZaehlerLogbuch)</Comment>
-                        <Active>true</Active>
-                        <Befehl>
-                            <Ausdruck>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertNeu", castToString(Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Name"/>")), ZaehlerLogbuch)</Ausdruck>
-                        </Befehl>
-                    </BefehlAusfuehren>
+                            <BefehlAusfuehren>
+                                <xsl:attribute name="Id">
+                                    <xsl:value-of select="$IDinnerBefehl + $pos + 200" />
+                                </xsl:attribute>
+                                <Comment>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "Massnahme", Listenelement(<xsl:value-of select="$Liste"/>, i, "Aktenzeichen"), ZaehlerLogbuch)</Comment>
+                                <Active>true</Active>
+                                <Befehl>
+                                    <Ausdruck>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "Massnahme", Listenelement(<xsl:value-of select="$Liste"/>, i, "Aktenzeichen"), ZaehlerLogbuch)</Ausdruck>
+                                </Befehl>
+                            </BefehlAusfuehren>
+                            <BefehlAusfuehren>
+                                <xsl:attribute name="Id">
+                                    <xsl:value-of select="$IDinnerBefehl + $pos + 400" />
+                                </xsl:attribute>
+                                <Comment>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertAlt", castToString(Listenelement(<xsl:value-of select="$Liste"/>Alt, k, "<xsl:value-of select="$Verweis"/>")), ZaehlerLogbuch)</Comment>
+                                <Active>true</Active>
+                                <Befehl>
+                                    <Ausdruck>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertAlt", castToString(Listenelement(<xsl:value-of select="$Liste"/>Alt, k, "<xsl:value-of select="$Verweis"/>")), ZaehlerLogbuch)</Ausdruck>
+                                </Befehl>
+                            </BefehlAusfuehren>
+                            <BefehlAusfuehren>
+                                <xsl:attribute name="Id">
+                                    <xsl:value-of select="$IDinnerBefehl + $pos + 500" />
+                                </xsl:attribute>
+                                <Comment>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertNeu", castToString(Listenelement(<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Verweis"/>")), ZaehlerLogbuch)</Comment>
+                                <Active>true</Active>
+                                <Befehl>
+                                    <Ausdruck>ListenelementSetzen(V.Z.Logbuch.ListeMassnahme, "WertNeu", castToString(Listenelement(<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Verweis"/>")), ZaehlerLogbuch)</Ausdruck>
+                                </Befehl>
+                            </BefehlAusfuehren>
                         </xsl:otherwise>
                     </xsl:choose>
                     <xsl:choose>
-                        <xsl:when test="matches($Name, 'Jahr\d')">
+                        <xsl:when test="matches($Verweis, 'Jahr\d')">
                         <BefehlAusfuehren>
                                 <xsl:attribute name="Id">
                                         <xsl:value-of select="$IDinnerBefehl + $pos" />
@@ -184,7 +218,7 @@
                             <xsl:value-of select="$IDSeqWF + $pos + 999" />
                         </xsl:attribute>
                         <Active>true</Active>
-                        <Wert>Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>, i, "Landesmittel") + " Jahr " + castToString(Listenelement(V.Z.<xsl:value-of select="$DMName"/>.<xsl:value-of select="$Liste"/>, i, "<xsl:value-of select="$Name"/>"))</Wert>
+                        <Wert><xsl:value-of select="$Titel"/></Wert>
                         <Workflowvariable Datentyp="STRING" Variablenname="Spalte"/>
                     </WorkflowvariableSetzen>
                     <BefehlAusfuehren>

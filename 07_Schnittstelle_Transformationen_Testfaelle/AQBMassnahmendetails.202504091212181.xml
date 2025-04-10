@@ -1,0 +1,1853 @@
+                <DokumentAnzeigen Id="168945326958673">
+                    <Active>true</Active>
+                    <Titel Standard="Maßnahmendetails" Type="Text"/>
+                    <Meldung Standard="Bitte füllen Sie mindestens alle Pflichtfelder für die aufgeführten Maßnahmen aus." Type="HTML"/>
+                    <Abschlussmeldung Type="HTML"/>
+                    <ProzessName Standard="Maßnahmendetails" Type="Text"/>
+                    <ProzessDescription Type="HTML"/>
+                    <DynamischesFormular>
+                        <Name Standard="Maßnahmendetails"/>
+                        <Klassifizierung>Antragsdokument</Klassifizierung>
+                        <Hilfetext Type="HTML"/>
+                        <DokumentverweisVorlage/>
+                        <DokumentelementGruppe>
+                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                            <Id>1378273655751180</Id>
+                            <Titel/>
+                            <Sichtbarkeit/>
+                            <DokumentelementListe Id="Massnahme" Datentyp="LIST">
+                                <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                <Liste>
+                                    <Darstellung>Schreibgeschuetzt</Darstellung>
+                                    <Id>V.Z.TMassnahmen.Massnahme</Id>
+                                    <Titel Standard="Maßnahmen"/>
+                                    <Hilfetext/>
+                                    <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                    <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                    <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                    <EintragTitel/>
+                                    <ListeLimit/>
+                                    <ShowId>false</ShowId>
+                                </Liste>
+                                <Datenverweis>V.Z.TMassnahmen.Massnahme</Datenverweis>
+                                <DokumentelementObjekt Id="Objekt" Datentyp="OBJECT">
+                                    <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                    <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                    <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                    <Objektfeld>
+                                        <Darstellung>Sichtbar</Darstellung>
+                                        <Titel Standard="Objekt"/>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                    </Objektfeld>
+                                    <DokumentelementEingabefeld Id="Empfaenger" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Empfaenger</Id>
+                                            <Titel Standard="Zuwendungsempfänger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Empfaenger</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Aktenzeichen" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>Aktenzeichen</Id>
+                                            <Titel Standard="Aktenzeichen"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Aktenzeichen</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Bezeichnung" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>Pflichtfeld</Darstellung>
+                                            <Id>Bezeichnung</Id>
+                                            <Titel Standard="Bezeichnung "/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>3</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Bezeichnung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Ausführungen zur Einzelmaßnahme&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="NeuVerlaengert" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>Pflichtfeld</Darstellung>
+                                            <Id>NeuVerlaengert</Id>
+                                            <Titel Standard="neu / verlängert"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>AktenzeichenFortfuehrung</ReferenzId>
+                                                <Vergleichswert>v</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>n|Neue Maßnahme;v|Fortführung der Maßnahme</Werteliste>
+                                            <Darstellungsart>DropDown</Darstellungsart>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>NeuVerlaengert</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="AktenzeichenFortfuehrung" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AktenzeichenFortfuehrung</Id>
+                                            <Titel Standard="Aktenzeichen der fortgeführten Maßnahme"/>
+                                            <Hilfetext Standard="Bitte erfassen Sie das Aktenzeichen nach folgendem Beispiel: AQB2025-XXX-M1-01"/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <RegulaererAusdruck>^AQB\d{4} ?- ?[A-Z]{3,4} ?- ?M[1-9]\d*-\d{2}$</RegulaererAusdruck>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>AktenzeichenFortfuehrung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Gesamtdauer der Maßnahme&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Beginn" Datentyp="DATE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Datumsfeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Beginn</Id>
+                                            <Titel Standard="Beginn"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <vorbelegungHeute/>
+                                            <PruefungDarfNichtInDerVergangenheitLiegen>false</PruefungDarfNichtInDerVergangenheitLiegen>
+                                            <PruefungDarfNichtInDerZukunftLiegen>false</PruefungDarfNichtInDerZukunftLiegen>
+                                            <WithDatePicker>false</WithDatePicker>
+                                        </Datumsfeld>
+                                        <Datenverweis>Beginn</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Ende" Datentyp="DATE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Datumsfeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Ende</Id>
+                                            <Titel Standard="Ende"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <vorbelegungHeute/>
+                                            <PruefungDarfNichtInDerVergangenheitLiegen>false</PruefungDarfNichtInDerVergangenheitLiegen>
+                                            <PruefungDarfNichtInDerZukunftLiegen>false</PruefungDarfNichtInDerZukunftLiegen>
+                                            <WithDatePicker>false</WithDatePicker>
+                                        </Datumsfeld>
+                                        <Datenverweis>Ende</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Ansprechpartner/in der GK für die Maßnahme&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="AnsprechpartnerName" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AnsprechpartnerName</Id>
+                                            <Titel Standard="Name"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>AnsprechpartnerName</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="AnsprechpartnerTelefonnummer" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AnsprechpartnerTelefonnummer</Id>
+                                            <Titel Standard="Telefonnummer"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>AnsprechpartnerTelefonnummer</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="AnsprechpartnerEmail" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AnsprechpartnerEmail</Id>
+                                            <Titel Standard="E-Mail"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>AnsprechpartnerEmail</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Id>TraegerText</Id>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Umsetzender Träger&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Projekttraeger_ID" Datentyp="VORSCHLAGSLISTE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <VorschlagslisteFeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Projekttraeger_ID</Id>
+                                            <Titel Standard="1. Projektträger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Projekttraeger</ReferenzId>
+                                                <Vergleichswert>Projektträger manuell erfassen</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>Katalog.Projekttraeger</Werteliste>
+                                            <MaxVorschlaegenAnzahl>10</MaxVorschlaegenAnzahl>
+                                            <VorschlaegeAnzahlZeichen>3</VorschlaegeAnzahlZeichen>
+                                        </VorschlagslisteFeld>
+                                        <Datenverweis>Projekttraeger_ID</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Projekttraeger" Datentyp="PERSONENDATENSATZ">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Personendatensatz>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Projekttraeger</Id>
+                                            <Titel Standard=" "/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Art>ExternJuristischePersonen</Art>
+                                            <DarstellungASDatenUerbernahme>NichtSichtbar</DarstellungASDatenUerbernahme>
+                                            <JurPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ansprechpartner" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <JurPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Telefonnummer" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="EMailAdresse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Rechtsform" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registerart" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registergericht" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registernummer" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Anrede" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geschlecht" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geburtsname" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Vorname" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Namenszusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="AkademischerGrad" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsdatum" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsort" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Nationalitaet" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Telefonnummer" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="EMailAdresse" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                        </Personendatensatz>
+                                        <Datenverweis>Projekttraeger</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="WeitererProjekttraeger2" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>WeitererProjekttraeger2</Id>
+                                            <Titel Standard="Weiterer Projektträger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionEinblenden>
+                                                <ReferenzId>WeitererProjekttraeger3</ReferenzId>
+                                                <Vergleichswert>TRUE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>Projekttraeger_ID2</ReferenzId>
+                                                <Vergleichswert>TRUE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                        </JaNeinFeld>
+                                        <Datenverweis>WeitererProjekttraeger2</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Projekttraeger_ID2" Datentyp="VORSCHLAGSLISTE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <VorschlagslisteFeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Projekttraeger_ID2</Id>
+                                            <Titel Standard="2. Projektträger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Projekttraeger2</ReferenzId>
+                                                <Vergleichswert>Projektträger manuell erfassen</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>Katalog.Projekttraeger</Werteliste>
+                                            <MaxVorschlaegenAnzahl>10</MaxVorschlaegenAnzahl>
+                                            <VorschlaegeAnzahlZeichen>3</VorschlaegeAnzahlZeichen>
+                                        </VorschlagslisteFeld>
+                                        <Datenverweis>Projekttraeger_ID2</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Projekttraeger2" Datentyp="PERSONENDATENSATZ">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Personendatensatz>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Projekttraeger2</Id>
+                                            <Titel Standard=" "/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Art>ExternJuristischePersonen</Art>
+                                            <DarstellungASDatenUerbernahme>NichtSichtbar</DarstellungASDatenUerbernahme>
+                                            <JurPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ansprechpartner" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <JurPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Telefonnummer" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="EMailAdresse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Rechtsform" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registerart" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registergericht" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registernummer" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Anrede" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geschlecht" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geburtsname" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Vorname" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Namenszusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="AkademischerGrad" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsdatum" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsort" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Nationalitaet" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Telefonnummer" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="EMailAdresse" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                        </Personendatensatz>
+                                        <Datenverweis>Projekttraeger2</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="WeitererProjekttraeger3" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>WeitererProjekttraeger3</Id>
+                                            <Titel Standard="Weiterer Projektträger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionEinblenden>
+                                                <ReferenzId>WeitererProjekttraeger4</ReferenzId>
+                                                <Vergleichswert>TRUE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>Projekttraeger_ID3</ReferenzId>
+                                                <Vergleichswert>TRUE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                        </JaNeinFeld>
+                                        <Datenverweis>WeitererProjekttraeger3</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Projekttraeger_ID3" Datentyp="VORSCHLAGSLISTE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <VorschlagslisteFeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Projekttraeger_ID3</Id>
+                                            <Titel Standard="3. Projektträger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Projekttraeger3</ReferenzId>
+                                                <Vergleichswert>Projektträger manuell erfassen</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>Katalog.Projekttraeger</Werteliste>
+                                            <MaxVorschlaegenAnzahl>10</MaxVorschlaegenAnzahl>
+                                            <VorschlaegeAnzahlZeichen>3</VorschlaegeAnzahlZeichen>
+                                        </VorschlagslisteFeld>
+                                        <Datenverweis>Projekttraeger_ID3</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Projekttraeger3" Datentyp="PERSONENDATENSATZ">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Personendatensatz>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Projekttraeger3</Id>
+                                            <Titel Standard=" "/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Art>ExternJuristischePersonen</Art>
+                                            <DarstellungASDatenUerbernahme>NichtSichtbar</DarstellungASDatenUerbernahme>
+                                            <JurPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ansprechpartner" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <JurPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Telefonnummer" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="EMailAdresse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Rechtsform" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registerart" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registergericht" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registernummer" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Anrede" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geschlecht" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geburtsname" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Vorname" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Namenszusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="AkademischerGrad" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsdatum" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsort" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Nationalitaet" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Telefonnummer" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="EMailAdresse" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                        </Personendatensatz>
+                                        <Datenverweis>Projekttraeger3</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="WeitererProjekttraeger4" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>WeitererProjekttraeger4</Id>
+                                            <Titel Standard="Weiterer Projektträger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionEinblenden>
+                                                <ReferenzId>Projekttraeger_ID4</ReferenzId>
+                                                <Vergleichswert>TRUE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                        </JaNeinFeld>
+                                        <Datenverweis>WeitererProjekttraeger4</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Projekttraeger_ID4" Datentyp="VORSCHLAGSLISTE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <VorschlagslisteFeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Projekttraeger_ID4</Id>
+                                            <Titel Standard="4. Projektträger"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Projekttraeger4</ReferenzId>
+                                                <Vergleichswert>Projektträger manuell erfassen</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>Katalog.Projekttraeger</Werteliste>
+                                            <MaxVorschlaegenAnzahl>10</MaxVorschlaegenAnzahl>
+                                            <VorschlaegeAnzahlZeichen>3</VorschlaegeAnzahlZeichen>
+                                        </VorschlagslisteFeld>
+                                        <Datenverweis>Projekttraeger_ID4</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Datentyp="DOUBLE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Dezimalzahlenfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>SummeLandesmittel</Id>
+                                            <Titel Standard="verplante Landesmittel"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Nachkommastellen>2</Nachkommastellen>
+                                        </Dezimalzahlenfeld>
+                                        <Datenverweis>SummeLandesmittel</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Projekttraeger4" Datentyp="PERSONENDATENSATZ">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Personendatensatz>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Projekttraeger4</Id>
+                                            <Titel Standard=" "/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Art>ExternJuristischePersonen</Art>
+                                            <DarstellungASDatenUerbernahme>NichtSichtbar</DarstellungASDatenUerbernahme>
+                                            <JurPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ansprechpartner" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <JurPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Telefonnummer" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="EMailAdresse" Elementdarstellung="Pflichtfeld"/>
+                                            <JurPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Rechtsform" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registerart" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registergericht" Elementdarstellung="NichtSichtbar"/>
+                                            <JurPersonConfig DataField="Registernummer" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Anrede" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geschlecht" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Name" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Geburtsname" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Vorname" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Namenszusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="AkademischerGrad" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsdatum" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Geburtsort" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Nationalitaet" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Strasse" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummer" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Hausnummernzusatz" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Postleitzahl" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Ort" Elementdarstellung="Pflichtfeld"/>
+                                            <NatPersonConfig DataField="Land" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Telefonnummer" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="EMailAdresse" Elementdarstellung="Sichtbar"/>
+                                            <NatPersonConfig DataField="Iban" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="BIC" Elementdarstellung="NichtSichtbar"/>
+                                            <NatPersonConfig DataField="Bankname" Elementdarstellung="NichtSichtbar"/>
+                                        </Personendatensatz>
+                                        <Datenverweis>Projekttraeger4</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Ausführungen zur Maßnahmenart&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Massnahmeart_ID" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Massnahmeart_ID</Id>
+                                            <Titel Standard="Maßnahmenart"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Ausbildung</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Massn_Ziel_Text</ReferenzId>
+                                                <Vergleichswert>4</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Massn_Ziel_IDM1M2</ReferenzId>
+                                                <Vergleichswert>1;2</Vergleichswert>
+                                                <Operator>Enthalten</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Massn_Ziel_IDM3</ReferenzId>
+                                                <Vergleichswert>3</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>Katalog.Massnahmenarten</Werteliste>
+                                            <Darstellungsart>DropDown</Darstellungsart>
+                                            <Filter>AQB</Filter>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Massnahmeart_ID</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Ausbildung" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Ausbildung</Id>
+                                            <Titel Standard="Ausführung bei Ausbildung und Ausbildungscoaching"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Ausbildungsberufe</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>TeilzeitVollzeit</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>CoachingZu</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>1|Ausbildung;2|Ausbildungscoaching</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Ausbildung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>TeilzeitVollzeit</Id>
+                                            <Titel Standard="Ausbildung in"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Werteliste>1|Teilzeit;2|Vollzeit;3|Teilzeit und Vollzeit</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Horizontal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>TeilzeitVollzeit</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>CoachingZu</Id>
+                                            <Titel Standard="Ausbildungscoaching zu einer"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Werteliste>1|Teilzeit-Ausbildung;2|Vollzeit-Ausbildung;3|Vollzeit- und Teilzeit-Ausbildung</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Horizontal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>CoachingZu</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Ausbildungsberufe" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Ausbildungsberufe</Id>
+                                            <Titel Standard="Ausbildungsberufe"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Ausbildungsberufe</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Für folgende Rechtskreise offen&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="RechtskreisStilleReserve" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>RechtskreisStilleReserve</Id>
+                                            <Titel Standard="Stille Reserve"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </JaNeinFeld>
+                                        <Datenverweis>RechtskreisStilleReserve</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="RechtskreisSGBII" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>RechtskreisSGBII</Id>
+                                            <Titel Standard="SGB II"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </JaNeinFeld>
+                                        <Datenverweis>RechtskreisSGBII</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="RechtskreisSGBIII" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>RechtskreisSGBIII</Id>
+                                            <Titel Standard="SGB III"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </JaNeinFeld>
+                                        <Datenverweis>RechtskreisSGBIII</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="RechtskreisSGBVIII" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>RechtskreisSGBVIII</Id>
+                                            <Titel Standard="SGB VIII"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </JaNeinFeld>
+                                        <Datenverweis>RechtskreisSGBVIII</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="RechtskreisSGBXII" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>RechtskreisSGBXII</Id>
+                                            <Titel Standard="SGB XII"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </JaNeinFeld>
+                                        <Datenverweis>RechtskreisSGBXII</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="RechtskreisAsylbLG" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>RechtskreisAsylbLG</Id>
+                                            <Titel Standard="AsylbLG"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </JaNeinFeld>
+                                        <Datenverweis>RechtskreisAsylbLG</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Kofinanzierung&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="KofinanzierungJN" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>KofinanzierungJN</Id>
+                                            <Titel Standard="Kofinanzierung?"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionAusblenden>
+                                                <ReferenzId>Kofinanzierung</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionAusblenden>
+                                            <Werteliste>1|Ja;2|Nein</Werteliste>
+                                            <Darstellungsart>DropDown</Darstellungsart>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>KofinanzierungJN</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Kofinanzierung" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>Kofinanzierung</Id>
+                                            <Titel Standard="Kofinanzierung"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>3</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Kofinanzierung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Weitergabe der Zuwendung&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="ZuwendungAuswahl" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>Pflichtfeld</Darstellung>
+                                            <Id>ZuwendungAuswahl</Id>
+                                            <Titel Standard="Mittelweitergabe"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>WeitergabeSonstigeText</ReferenzId>
+                                                <Vergleichswert>4</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>1|Vergabe;2|Zuwendung;3|Inhouse-Vergabe;4|Sonstige</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>ZuwendungAuswahl</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="WeitergabeSonstigeText" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>WeitergabeSonstigeText</Id>
+                                            <Titel Standard="Sonstige"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>WeitergabeSonstigeText</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Dauermassnahme" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>Pflichtfeld</Darstellung>
+                                            <Id>Dauermassnahme</Id>
+                                            <Titel Standard="Handelt es sich um eine Dauermaßnahme der teilnehmerbezogenen Arbeitsmarktförderung?"/>
+                                            <Hilfetext Standard="(die Teilnehmenden sind über einen Zeitraum von mindestens einem Monat oder länger in der Maßnahme)"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Starttermin</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>MassnahmeArtArbeitsmarktfoerderung</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>1|Ja;2|Nein</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Horizontal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Dauermassnahme</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Starttermin" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Starttermin</Id>
+                                            <Titel Standard="Starttermin"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>StartterminFixKurse</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>StartterminFixPlaetze</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>StartterminFlexibelPlaetze</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionEinblenden>
+                                                <ReferenzId>StartterminFlexibelAusgaben</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>AngabeIn</ReferenzId>
+                                                <Operator>isNotNull</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionEinblenden>
+                                                <ReferenzId>StartterminFixAusgaben</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>StartterminFixDauer</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionEinblenden>
+                                                <ReferenzId>StartterminFixKurseDauer</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>StartterminFlexibelDauer</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Tabellarisch</Wertelisteeingabe>
+                                            <TabellarischWerteListe>
+                                                <Wert>1</Wert>
+                                                <Label Standard="Maßnahme mit fixem Starttermin (sog. Kursmaßnahme)" Type="Text"/>
+                                                <LabelZusatzfeld/>
+                                                <Beschreibung Standard="Hinweis: Eine Maßnahme kann aus mehreren Kursen, d.h. Durchläufen bestehen." Type="Text"/>
+                                                <AlternativeBildtext/>
+                                                <BildAusrichtung>Links</BildAusrichtung>
+                                                <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                                <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                                <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            </TabellarischWerteListe>
+                                            <TabellarischWerteListe>
+                                                <Wert>2</Wert>
+                                                <Label Standard="Maßnahme mit flexiblem Starttermin (flexible Zusteuerung der Teilnehmenden)" Type="Text"/>
+                                                <LabelZusatzfeld/>
+                                                <Beschreibung/>
+                                                <AlternativeBildtext/>
+                                                <BildAusrichtung>Links</BildAusrichtung>
+                                                <FeldlaengeDesktopInProzent>4</FeldlaengeDesktopInProzent>
+                                                <FeldlaengeTabletInProzent>4</FeldlaengeTabletInProzent>
+                                                <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            </TabellarischWerteListe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Starttermin</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="StartterminFixKurse" Datentyp="INTEGER">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Zahlenfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>StartterminFixKurse</Id>
+                                            <Titel Standard="Anzahl der Kurse/Durchläufe"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </Zahlenfeld>
+                                        <Datenverweis>StartterminFixKurse</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="StartterminFixPlaetze" Datentyp="INTEGER">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Zahlenfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>StartterminFixPlaetze</Id>
+                                            <Titel Standard="Anzahl der Plätze je Kurs/Durchlauf"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </Zahlenfeld>
+                                        <Datenverweis>StartterminFixPlaetze</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="StartterminFixAusgaben" Datentyp="DOUBLE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Dezimalzahlenfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>StartterminFixAusgaben</Id>
+                                            <Titel Standard="Ausgaben pro geplanten Platz pro Monat"/>
+                                            <Hilfetext Standard="Nach Klick auf WEITER auf dieser Seite wird dieser Wert automatisch berechnet." Type="Text"/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Nachkommastellen>2</Nachkommastellen>
+                                        </Dezimalzahlenfeld>
+                                        <Datenverweis>StartterminFixAusgaben</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="StartterminFlexibelPlaetze" Datentyp="INTEGER">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Zahlenfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>StartterminFlexibelPlaetze</Id>
+                                            <Titel Standard="Anzahl der Plätze"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </Zahlenfeld>
+                                        <Datenverweis>StartterminFlexibelPlaetze</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="StartterminFlexibelAusgaben" Datentyp="DOUBLE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Dezimalzahlenfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>StartterminFlexibelAusgaben</Id>
+                                            <Titel Standard="Ausgaben pro geplanten Platz pro Monat" Type="Text"/>
+                                            <Hilfetext Standard="Nach Klick auf WEITER auf dieser Seite wird dieser Wert automatisch berechnet." Type="Text"/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Nachkommastellen>2</Nachkommastellen>
+                                        </Dezimalzahlenfeld>
+                                        <Datenverweis>StartterminFlexibelAusgaben</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="MassnahmeArtArbeitsmarktfoerderung" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>MassnahmeArtArbeitsmarktfoerderung</Id>
+                                            <Titel Standard="Es handelt sich um eine"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>ArbeitsmarktfoerderungTeilnehmer</ReferenzId>
+                                                <Vergleichswert>1;2</Vergleichswert>
+                                                <Operator>Enthalten</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>ArbeitsmarktfoerderungTermine</ReferenzId>
+                                                <Vergleichswert>1;2</Vergleichswert>
+                                                <Operator>Enthalten</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionEinblenden>
+                                                <ReferenzId>ArbeitsmarktfoerderungAusgaben</ReferenzId>
+                                                <Vergleichswert>1;2</Vergleichswert>
+                                                <Operator>Enthalten</Operator>
+                                            </AktionEinblenden>
+                                            <Werteliste>1|Beratungs- oder Coachingmaßnahme;2|sonstige punktuelle Maßnahme der teilnehmerbezogenen Arbeitsmarktförderung (z.B. Beratung o.Ä.);3|sonstige nicht teilnehmerbezogene Maßnahme (z.B. Messe o.Ä.)</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>MassnahmeArtArbeitsmarktfoerderung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="ArbeitsmarktfoerderungTeilnehmer" Datentyp="INTEGER">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Zahlenfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>ArbeitsmarktfoerderungTeilnehmer</Id>
+                                            <Titel Standard="Anzahl der geplanten Teilnehmenden"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </Zahlenfeld>
+                                        <Datenverweis>ArbeitsmarktfoerderungTeilnehmer</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="ArbeitsmarktfoerderungTermine" Datentyp="INTEGER">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Zahlenfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>ArbeitsmarktfoerderungTermine</Id>
+                                            <Titel Standard=" Anzahl der Termine pro Teilnehmende/r"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </Zahlenfeld>
+                                        <Datenverweis>ArbeitsmarktfoerderungTermine</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="ArbeitsmarktfoerderungAusgaben" Datentyp="DOUBLE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Dezimalzahlenfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>ArbeitsmarktfoerderungAusgaben</Id>
+                                            <Titel Standard="Ausgaben pro geplanten Teilnehmenden pro Monat"/>
+                                            <Hilfetext Standard="Nach Klick auf WEITER auf dieser Seite wird dieser Wert automatisch berechnet." Type="Text"/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Nachkommastellen>2</Nachkommastellen>
+                                        </Dezimalzahlenfeld>
+                                        <Datenverweis>ArbeitsmarktfoerderungAusgaben</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Id>StartterminFixKurseDauer</Id>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Dauer des einzelnen Kurses/Durchlaufs&lt;/h3&gt;" Type="HTML"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Id>StartterminFlexibelDauer</Id>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Individuelle Dauer der Maßnahme je Teilnehmer/in (ggf. Schätzung)&lt;/h3&gt;" Type="HTML"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AngabeIn</Id>
+                                            <Titel Standard="Angabe in"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Verweildauer_Wochen</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Verweildauer_Monate</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>1|Wochen;2|Monaten</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Horizontal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>AngabeIn</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Verweildauer_Wochen" Datentyp="INTEGER">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Zahlenfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Verweildauer_Wochen</Id>
+                                            <Titel Standard="Wochen"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </Zahlenfeld>
+                                        <Datenverweis>Verweildauer_Wochen</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Verweildauer_Monate" Datentyp="INTEGER">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Zahlenfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Verweildauer_Monate</Id>
+                                            <Titel Standard="Monate"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        </Zahlenfeld>
+                                        <Datenverweis>Verweildauer_Monate</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Monitoring&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Monitoring" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>Pflichtfeld</Darstellung>
+                                            <Id>Monitoring</Id>
+                                            <Titel Standard="Monitoring erforderlich"/>
+                                            <Hilfetext Standard="(Monitoring findet nur bei einer Verweildauer über mehrere Wochen und wenn eine nachvollziehbare Änderung des Verbleibs erwartet werden kann, statt.)"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionEinblenden>
+                                                <ReferenzId>PlaetzeUeberschrift</ReferenzId>
+                                                <Operator>isNotNull</Operator>
+                                            </AktionEinblenden>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Plaetze_geplant</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Durchgaenge</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionEinblenden>
+                                                <ReferenzId>PlaetzeTypTermine</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>PlaetzeTypDauermassnahme</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>PlaetzeTypBeratungsprojekt</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Teilnehmer_geplant</ReferenzId>
+                                                <Vergleichswert>1</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Teilnehmer_geplantManuell</ReferenzId>
+                                                <Vergleichswert>2</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <Werteliste>1|ja;2|nein</Werteliste>
+                                            <Darstellungsart>RadioButton</Darstellungsart>
+                                            <Ausrichtung>Horizontal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Monitoring</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Maßnahmenziel&lt;/h3&gt;" Type="HTML"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Massn_Ziel_IDM1M2" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Massn_Ziel_IDM1M2</Id>
+                                            <Titel Standard="Ziel der Einzelmaßnahme"/>
+                                            <Hilfetext Standard="(bitte nur das Hauptziel auswählen - Mehrfachnennung nicht moglich)" Type="Text"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Werteliste>Katalog.Massnahmenziele</Werteliste>
+                                            <Darstellungsart>DropDown</Darstellungsart>
+                                            <Filter>M1M2</Filter>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Massn_Ziel_IDM1M2</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Massn_Ziel_IDM3" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Massn_Ziel_IDM3</Id>
+                                            <Titel Standard="Ziel der Einzelmaßnahme"/>
+                                            <Hilfetext Standard="(bitte nur das Hauptziel auswählen - Mehrfachnennung nicht moglich)"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Werteliste>Katalog.Massnahmenziele</Werteliste>
+                                            <Darstellungsart>DropDown</Darstellungsart>
+                                            <Filter>M3</Filter>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Massn_Ziel_IDM3</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Massn_Ziel_Text" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Massn_Ziel_Text</Id>
+                                            <Titel Standard="Ziel der Einzelmaßnahme"/>
+                                            <Hilfetext Standard="(bitte frei formulieren)"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>1</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Massn_Ziel_Text</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Massn_Ziel_Weiteres" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Massn_Ziel_Weiteres</Id>
+                                            <Titel Standard="Weitere Ausführungen zur Zielsetzung der Einzelmaßnahme"/>
+                                            <Hilfetext Standard="(falls nicht in vorheriger Auswahl enthalten)"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>3</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Massn_Ziel_Weiteres</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Zielgruppe&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Zielgruppe_ID" Datentyp="CHOICE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Auswahlfeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Zielgruppe_ID</Id>
+                                            <Titel Standard="Zielgruppe"/>
+                                            <Hilfetext Standard="Bitte hier die Haupt-Zielgruppe - bei Integrations-Maßnahmen grundsätzlich immer „Migrantinnen / Migranten“- auswählen."/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Werteliste>Katalog.Zielgruppen</Werteliste>
+                                            <Darstellungsart>DropDown</Darstellungsart>
+                                            <Ausrichtung>Vertikal</Ausrichtung>
+                                            <Wertelisteeingabe>Frei</Wertelisteeingabe>
+                                        </Auswahlfeld>
+                                        <Datenverweis>Zielgruppe_ID</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Zielgruppe_Sonstige" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>Sichtbar</Darstellung>
+                                            <Id>Zielgruppe_Sonstige</Id>
+                                            <Titel Standard="zusätzliche Zielgruppen"/>
+                                            <Hilfetext Standard="(falls nicht in vorheriger Auswahl enthalten)"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>3</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Zielgruppe_Sonstige</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Kurzbeschreibung der Inhalte&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Kurzbeschreibung" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Kurzbeschreibung</Id>
+                                            <Titel Standard="Kurzbeschreibung"/>
+                                            <Hilfetext Standard="Der Text soll in die Datenbank des RP Kassel übertragen werden, bitte die Zeichenzahl von mx. 650 nicht überschreiten. Gerne können Sie auf einem gesonderten Blatt eine ausführliche Maßnahmenbeschreibung mit versenden."/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <MaxAnzahlZeichen>650</MaxAnzahlZeichen>
+                                            <AnzahlZeilen>4</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Kurzbeschreibung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="AnlageBeschreibungJN" Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>BeschreibungJN</Id>
+                                            <Titel Standard="Ich möchte eine ausführliche Beschreibung hochladen."/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>AnlageBeschreibung</ReferenzId>
+                                                <Vergleichswert>TRUE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                        </JaNeinFeld>
+                                        <Datenverweis>BeschreibungJN</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="AnlageBeschreibung" Datentyp="ANLAGEN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Anlagen>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AnlageBeschreibung</Id>
+                                            <Titel Standard="Ausführliche Beschreibung"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <FileCountLimit>10</FileCountLimit>
+                                        </Anlagen>
+                                        <Datenverweis>AnlageBeschreibung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementText>
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Objekt>
+                                            <Label/>
+                                        </Objekt>
+                                        <Style/>
+                                        <Text Standard="&lt;h3&gt;Abgrenzung zum Regelsystem (SGB II/SGB III)&lt;/h3&gt;"/>
+                                        <Typ>Standard</Typ>
+                                        <Zeilen>0</Zeilen>
+                                    </DokumentelementText>
+                                    <DokumentelementEingabefeld Id="Abgrenzung" Datentyp="STRING">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Textfeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>Abgrenzung</Id>
+                                            <Titel Standard="Abgrenzung zum Regelsystem (SGB II/SGB III)"/>
+                                            <Hilfetext Standard="Mehrwert der Maßnahme gegenüber dem Regelsystem: (Abgrenzung zu z.B. SGB II bzw. SGB III darstellen)"/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <Vorbelegung></Vorbelegung>
+                                            <AnzahlZeilen>3</AnzahlZeilen>
+                                            <IsPasswort>false</IsPasswort>
+                                        </Textfeld>
+                                        <Datenverweis>Abgrenzung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AbgrenzungJN</Id>
+                                            <Titel Standard="Ich möchte eine ausführliche Beschreibung hochladen."/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>AnlageAbgrenzung</ReferenzId>
+                                                <Vergleichswert>TRUE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                        </JaNeinFeld>
+                                        <Datenverweis>AbgrenzungJN</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Datentyp="ANLAGEN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Anlagen>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>AnlageAbgrenzung</Id>
+                                            <Titel Standard="Ausführliche Beschreibung - Abgrenzung zum Regelsystem (SGB II/SGB III)" Type="Text"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <FileCountLimit>10</FileCountLimit>
+                                        </Anlagen>
+                                        <Datenverweis>AnlageAbgrenzung</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Id="Aenderungsdatum" Datentyp="DATE">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <Datumsfeld>
+                                            <Darstellung>Schreibgeschuetzt</Darstellung>
+                                            <Id>Aenderungsdatum</Id>
+                                            <Titel Standard="Datum"/>
+                                            <Hilfetext Standard="(Stand der Maßnahmendetails)" Type="Text"/>
+                                            <FeldlaengeDesktopInProzent>6</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>6</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <vorbelegungHeute/>
+                                            <PruefungDarfNichtInDerVergangenheitLiegen>false</PruefungDarfNichtInDerVergangenheitLiegen>
+                                            <PruefungDarfNichtInDerZukunftLiegen>false</PruefungDarfNichtInDerZukunftLiegen>
+                                            <WithDatePicker>false</WithDatePicker>
+                                        </Datumsfeld>
+                                        <Datenverweis>Aenderungsdatum</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                    <DokumentelementEingabefeld Datentyp="BOOLEAN">
+                                        <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                        <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                        <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                        <JaNeinFeld>
+                                            <Darstellung>NichtSichtbar</Darstellung>
+                                            <Id>SichtbarkeitsFlag</Id>
+                                            <Titel Standard="SichtbarkeitsFlag"/>
+                                            <Hilfetext/>
+                                            <FeldlaengeDesktopInProzent>12</FeldlaengeDesktopInProzent>
+                                            <FeldlaengeTabletInProzent>12</FeldlaengeTabletInProzent>
+                                            <FeldlaengeMobilInProzent>12</FeldlaengeMobilInProzent>
+                                            <AktionEinblenden>
+                                                <ReferenzId>Empfaenger</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>AnsprechpartnerName</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>AnsprechpartnerTelefonnummer</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>AnsprechpartnerEmail</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionPflichtfeldSetzen>
+                                                <ReferenzId>Massnahmeart_ID</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionPflichtfeldSetzen>
+                                            <AktionEinblenden>
+                                                <ReferenzId>RechtskreisAsylbLG</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>RechtskreisSGBXII</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>RechtskreisSGBVIII</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>RechtskreisSGBIII</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>RechtskreisSGBII</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>RechtskreisStilleReserve</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>Massn_Ziel_Weiteres</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>AbgrenzungJN</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>Abgrenzung</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>BeschreibungJN</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                            <AktionEinblenden>
+                                                <ReferenzId>Kurzbeschreibung</ReferenzId>
+                                                <Vergleichswert>FALSE</Vergleichswert>
+                                                <Operator>Gleich</Operator>
+                                            </AktionEinblenden>
+                                        </JaNeinFeld>
+                                        <Datenverweis>SichtbarkeitsFlag</Datenverweis>
+                                    </DokumentelementEingabefeld>
+                                </DokumentelementObjekt>
+                            </DokumentelementListe>
+                            <Informationsmeldung/>
+                            <Fehlermeldung/>
+                            <Erfolgsmeldung/>
+                        </DokumentelementGruppe>
+                    </DynamischesFormular>
+                    <ZurAkteHinzufuegen>false</ZurAkteHinzufuegen>
+                </DokumentAnzeigen>
